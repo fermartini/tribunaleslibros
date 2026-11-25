@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tribunales Libros · Librería jurídica</title>
+<meta name="description" content="Todos tus libros de Derecho en un solo lugar: códigos, packs para estudiantes y profesionales, clásicos y ediciones agotadas. Puesto en Lavalle 1255, CABA.">
+<meta name="theme-color" content="#15120d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315120d'/%3E%3Cpath fill='%23d4af5a' d='M6 11h20l-10-6zM8 13h3v10H8zm6.5 0h3v10h-3zM21 13h3v10h-3zM6 25h20v2H6z'/%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Simulación del nav y footer de Empretienda: en la tienda real los pone la plataforma */
+  body{margin:0;font-family:'Work Sans',system-ui,sans-serif;background:#fff}
+  .emp-top{background:#fbe36a;color:#111;padding:8px 20px 6px;font-size:13px}
+  .emp-top b{display:block;text-align:center;font-family:Georgia,serif;letter-spacing:.04em;font-size:14px}
+  .emp-top span{display:block;text-align:right;margin-top:10px;font-size:12.5px}
+  .emp-head{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;max-width:1180px;margin:0 auto;padding:12px 24px;gap:16px}
+  .emp-search{display:flex;justify-self:end}.emp-search input{border:1px solid #ccc;border-radius:3px 0 0 3px;padding:9px 10px;width:180px;font:inherit;font-size:14px}
+  .emp-search button{background:#fbe36a;border:0;border-radius:0 3px 3px 0;width:62px;font-size:16px}
+  .emp-head img{height:58px;display:block}
+  .emp-acc{font-size:14px;color:#111;justify-self:start}
+  .emp-nav{background:#fbe36a;text-align:center;padding:12px 10px;font-size:13.5px;letter-spacing:.02em}
+  .emp-nav a{color:#111;margin:0 11px;text-decoration:none}
+  .emp-foot{background:#1d1d1d;color:#eee;display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:none;padding:32px max(24px,calc((100% - 1180px)/2));font-size:13px}
+  .emp-foot b{display:block;margin-bottom:8px;font-size:12px;letter-spacing:.05em}
+  .emp-foot-b{background:#fbe36a;color:#111;padding:12px;font-size:12px;text-align:center}
+  @media (max-width:760px){
+    .emp-head{grid-template-columns:auto 1fr}.emp-head a{order:-1}.emp-search{grid-column:1/-1;justify-self:stretch;order:3}.emp-search input{width:100%}
+    .emp-acc{justify-self:end;font-size:12px}.emp-head img{height:44px}
+    .emp-nav a{margin:0 6px;font-size:12px}.emp-nav a:nth-child(3),.emp-nav a:nth-child(4){display:none}
+    .emp-top span{text-align:center}.emp-foot{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="emp-top"><b>TRIBUNALESLIBROS TODOS TUS LIBROS EN UN SOLO LUGAR</b><span>📞 1141974064 &nbsp; @ matybook@gmail.com &nbsp; 📍 Lavalle 1255, caba. Puesto 2</span></div>
+<header class="emp-head">
+  <form class="emp-search" role="search" onsubmit="return false"><input placeholder="Buscar..." aria-label="Buscar"><button aria-label="Buscar">⌕</button></form>
+  <a href="#"><img src="img/logo.png" alt="Tribunales Libros"></a>
+  <div class="emp-acc">CREAR CUENTA &nbsp;<span style="color:#c9a24a">|</span>&nbsp; INICIAR SESIÓN</div>
+</header>
+<nav class="emp-nav"><a href="#">INICIO</a><a href="#">CATEGORIAS ▾</a><a href="#">QUIENES SOMOS</a><a href="#">PREGUNTAS FRECUENTES</a><a href="#">CONTACTO</a><a href="#">🛒 0</a></nav>
+
+<!-- ===== BLOQUE DE LA HOME (es lo que va en Empretienda) ===== -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Work+Sans:wght@400;500;600&display=swap');
+
+.tl{
+  --tl-tinta:#15120d;     /* negro cálido */
+  --tl-oro:#c9a24a;       /* dorado del logo */
+  --tl-oro-claro:#e6c877;
+  --tl-amarillo:#fbe36a;  /* el amarillo del nav */
+  --tl-bordo:#7a1f24;     /* el bordó de sus placas */
+  --tl-papel:#fffbe8;
+  --tl-titulo:'Libre Caslon Display',Georgia,'Times New Roman',serif;
+  --tl-texto:'Work Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-family:var(--tl-texto);color:var(--tl-tinta);line-height:1.55;overflow:hidden;
+}
+.tl *,.tl *::before,.tl *::after{box-sizing:border-box}
+:where(.tl a){color:inherit}
+:where(.tl h1,.tl h2,.tl h3,.tl p,.tl ul,.tl figure){margin:0}
+.tl-wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.tl-sec{padding:clamp(72px,9vw,112px) 0}
+.tl-h2{font:400 clamp(38px,5vw,62px)/1.02 var(--tl-titulo);letter-spacing:-.01em}
+.tl-bajada{font-size:18px;max-width:46ch;color:#5a5244;margin-top:14px}
+.tl-filete{display:flex;align-items:center;gap:14px;color:var(--tl-oro);margin-bottom:18px}
+.tl-filete::before,.tl-filete::after{content:"";height:1px;width:42px;background:currentColor}
+.tl-filete svg{width:22px;height:22px;fill:currentColor}
+
+.tl-btn{display:inline-block;font:600 15px/1 var(--tl-texto);text-decoration:none;padding:17px 28px;border-radius:2px;border:1.5px solid transparent;letter-spacing:.02em;transition:background .2s,color .2s,border-color .2s}
+.tl-btn:focus-visible{outline:3px solid var(--tl-amarillo);outline-offset:3px}
+.tl-btn--amarillo{background:var(--tl-amarillo);color:var(--tl-tinta)}
+.tl-btn--amarillo:hover{background:#fff}
+.tl-btn--linea{border-color:var(--tl-oro);color:#fff}
+.tl-btn--linea:hover{background:var(--tl-oro);color:var(--tl-tinta)}
+.tl-btn--tinta{background:var(--tl-tinta);color:#fff}
+.tl-btn--tinta:hover{background:var(--tl-bordo)}
+
+/* ---------- HERO ---------- */
+.tl-hero{background:var(--tl-tinta);color:#fff;display:grid;grid-template-columns:1fr 1fr;min-height:clamp(540px,74vh,720px)}
+.tl-hero__txt{display:flex;flex-direction:column;justify-content:center;padding:clamp(56px,7vw,96px) clamp(28px,5vw,72px) clamp(56px,7vw,96px) max(24px,calc(50vw - 566px))}
+.tl-hero h1{font:400 clamp(44px,5.4vw,80px)/1 var(--tl-titulo);letter-spacing:-.015em;max-width:12ch}
+.tl-hero__bajada{font-size:clamp(17px,1.4vw,19px);color:#d7cfbf;max-width:42ch;margin:24px 0 34px}
+.tl-hero__ctas{display:flex;flex-wrap:wrap;gap:12px}
+.tl-hero__foto{position:relative;background:var(--tl-img) center 45%/cover no-repeat,#2a2318}
+.tl-hero__foto::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--tl-tinta) 0%,rgba(21,18,13,0) 22%)}
+.tl-hero__rotulo{position:absolute;left:28px;bottom:28px;background:var(--tl-amarillo);color:var(--tl-tinta);padding:11px 16px;font:600 14px/1.2 var(--tl-texto)}
+
+/* ---------- los más buscados ---------- */
+.tl-estante{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,2.4vw,30px)}
+.tl-libro{display:flex;flex-direction:column;text-decoration:none}
+.tl-libro__foto{aspect-ratio:3/4;overflow:hidden;background:#eee;box-shadow:0 1px 0 #d9d2c3}
+.tl-libro__foto img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.tl-libro:hover .tl-libro__foto img{transform:scale(1.04)}
+.tl-libro__titulo{font:400 21px/1.15 var(--tl-titulo);margin-top:14px}
+.tl-libro__autor{font-size:14px;color:#7a705e;margin-top:4px}
+.tl-libro__ver{margin-top:10px;font-weight:600;font-size:14px;align-self:flex-start;border-bottom:2px solid var(--tl-amarillo);padding-bottom:1px}
+.tl-libro:hover .tl-libro__ver{border-color:var(--tl-bordo)}
+.tl-libro:focus-visible{outline:3px solid var(--tl-oro);outline-offset:4px}
+.tl-estante__pie{margin-top:40px;text-align:center}
+
+/* ---------- te lo buscamos ---------- */
+.tl-busca{background:var(--tl-amarillo)}
+.tl-busca__grid{display:grid;grid-template-columns:auto 1fr auto;gap:clamp(24px,4vw,56px);align-items:center;padding-top:clamp(48px,6vw,72px);padding-bottom:clamp(48px,6vw,72px)}
+.tl-busca__lupa{width:clamp(72px,8vw,104px);height:clamp(72px,8vw,104px);border-radius:50%;background:var(--tl-tinta);display:grid;place-items:center}
+.tl-busca__lupa svg{width:46%;height:46%;fill:none;stroke:var(--tl-amarillo);stroke-width:2;stroke-linecap:round}
+.tl-busca h2{font:400 clamp(32px,3.8vw,50px)/1.05 var(--tl-titulo)}
+.tl-busca p{font-size:17px;max-width:52ch;margin-top:10px;color:#3d372b}
+
+/* ---------- franja ---------- */
+.tl-franja{background:var(--tl-amarillo);border-bottom:1px solid #e5cb4f}
+.tl-franja ul{list-style:none;padding-top:20px;padding-bottom:20px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tl-franja li{display:flex;align-items:center;gap:12px;font-weight:600;font-size:15px;line-height:1.25}
+.tl-franja svg{flex:none;width:28px;height:28px;fill:none;stroke:var(--tl-tinta);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- categorías ---------- */
+.tl-cabeza{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 40px;margin-bottom:40px}
+.tl-cats{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.4vw,28px)}
+.tl-cat{display:block;text-decoration:none;group:1}
+.tl-cat__foto{display:block;aspect-ratio:4/5;overflow:hidden;background:#eee;position:relative}
+.tl-cat__foto img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.tl-cat:hover .tl-cat__foto img{transform:scale(1.04)}
+.tl-cat__pie{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px solid #d9d2c3;padding:16px 0 14px}
+.tl-cat__nombre{font:400 clamp(24px,2.2vw,30px)/1.1 var(--tl-titulo)}
+.tl-cat__para{font-size:13.5px;color:#7a705e;white-space:nowrap}
+.tl-cat:hover .tl-cat__pie{border-color:var(--tl-oro)}
+.tl-cat:focus-visible{outline:3px solid var(--tl-oro);outline-offset:4px}
+
+/* ---------- por rama ---------- */
+.tl-ramas{background:var(--tl-papel);border-top:1px solid #f0e6bd;border-bottom:1px solid #f0e6bd}
+.tl-ramas__grid{display:grid;grid-template-columns:auto 1fr;gap:20px 48px;align-items:center;padding-top:40px;padding-bottom:40px}
+.tl-ramas h2{font:400 30px/1.1 var(--tl-titulo)}
+.tl-chips{display:flex;flex-wrap:wrap;gap:10px}
+.tl-chips a{text-decoration:none;border:1px solid var(--tl-tinta);padding:10px 16px;font-size:14.5px;font-weight:500;border-radius:999px;background:#fff;transition:background .2s,color .2s}
+.tl-chips a:hover{background:var(--tl-tinta);color:#fff}
+.tl-chips a.tl-chips__todas{background:var(--tl-tinta);color:#fff;border-color:var(--tl-tinta)}
+.tl-chips a.tl-chips__todas:hover{background:var(--tl-bordo);border-color:var(--tl-bordo)}
+
+/* ---------- promociones ---------- */
+.tl-promo{background:var(--tl-bordo);color:#fff;position:relative}
+.tl-promo .tl-bajada{color:#f0d9d0}
+.tl-promo .tl-filete{color:var(--tl-oro-claro)}
+.tl-promos{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.tl-promo-card{display:grid;grid-template-columns:1fr 1fr;background:#fff;color:var(--tl-tinta);text-decoration:none;min-height:280px}
+.tl-promo-card img{width:100%;height:100%;object-fit:cover;display:block}
+.tl-promo-card__txt{padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.tl-promo-card h3{font:400 28px/1.08 var(--tl-titulo)}
+.tl-promo-card p{font-size:15.5px;color:#5a5244;margin-top:10px}
+.tl-promo-card__ir{font-weight:600;font-size:15px;border-bottom:2px solid var(--tl-amarillo);align-self:flex-start;padding-bottom:2px}
+.tl-promo-card:hover .tl-promo-card__ir{border-color:var(--tl-bordo)}
+.tl-promo-card:focus-visible{outline:3px solid var(--tl-amarillo);outline-offset:3px}
+.tl-transfer{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(255,255,255,.25);padding-top:28px}
+.tl-transfer p{font-size:18px}
+.tl-transfer b{color:var(--tl-amarillo);font-weight:600}
+
+/* ---------- clásicos y agotados ---------- */
+.tl-clasicos__grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(36px,6vw,88px);align-items:center}
+.tl-clasicos__foto{aspect-ratio:4/5;background:url('img/n-savigny.jpg') center 50%/cover no-repeat;box-shadow:24px 24px 0 var(--tl-amarillo)}
+.tl-clasicos p{font-size:18px;color:#5a5244;max-width:44ch;margin:20px 0 32px}
+
+/* ---------- puesto ---------- */
+.tl-puesto{background:var(--tl-tinta);color:#fff}
+.tl-puesto__grid{display:grid;grid-template-columns:1fr auto;gap:clamp(36px,6vw,80px);align-items:center}
+.tl-puesto__dir{font:400 clamp(52px,7.4vw,104px)/.95 var(--tl-titulo)}
+.tl-puesto__dir small{display:block;font:500 clamp(16px,1.5vw,19px)/1.4 var(--tl-texto);color:var(--tl-oro-claro);margin-top:18px}
+.tl-puesto p{color:#d7cfbf;font-size:17px;max-width:46ch;margin:22px 0 30px}
+.tl-puesto__foto{width:min(300px,70vw);aspect-ratio:9/14;object-fit:cover;border:1px solid rgba(201,162,74,.6);padding:10px;background:#211c14}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .tl-hero{grid-template-columns:1fr}
+  .tl-hero__txt{padding:48px 24px}
+  .tl-hero__foto{min-height:340px;order:-1}
+  .tl-hero__foto::before{background:linear-gradient(0deg,var(--tl-tinta) 0%,rgba(21,18,13,0) 30%)}
+  .tl-estante{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:62%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}
+  .tl-libro{scroll-snap-align:start}
+  .tl-busca__grid{grid-template-columns:1fr}
+  .tl-clasicos__grid,.tl-puesto__grid{grid-template-columns:1fr}
+  .tl-cats{grid-template-columns:repeat(2,1fr)}
+  .tl-franja ul{grid-template-columns:1fr 1fr}
+  .tl-promos{grid-template-columns:1fr}
+  .tl-ramas__grid{grid-template-columns:1fr}
+  .tl-puesto__foto{justify-self:start}
+}
+@media (max-width:560px){
+  .tl-cats{grid-template-columns:1fr}
+  .tl-promo-card{grid-template-columns:1fr}
+  .tl-promo-card img{aspect-ratio:4/3;height:auto}
+  .tl-franja li{font-size:14px}
+  .tl-clasicos__foto{box-shadow:12px 12px 0 var(--tl-amarillo)}
+}
+@media (prefers-reduced-motion:reduce){.tl-libro__foto img,.tl-cat__foto img,.tl-btn,.tl-chips a{transition:none}}
+</style>
+
+<div class="tl">
+
+  <!-- HERO · para cambiar la foto, editá --tl-img -->
+  <section class="tl-hero">
+    <div class="tl-hero__txt">
+      <div class="tl-filete" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l-1 2H5l-3 7a4 4 0 0 0 8 0L7.6 5.5H11V19H7v2h10v-2h-4V5.5h3.4L14 11a4 4 0 0 0 8 0l-3-7h-6zM6 6.8L8.2 11H3.8zm12 0l2.2 4.2h-4.4z"/></svg></div>
+      <h1>Todos tus libros de Derecho, en un solo lugar.</h1>
+      <p class="tl-hero__bajada">Códigos, packs para estudiantes y profesionales, clásicos y ediciones agotadas. Comprá online o vení a buscarlos al puesto en Lavalle 1255.</p>
+      <div class="tl-hero__ctas">
+        <a class="tl-btn tl-btn--amarillo" href="#tl-buscados">Ver los más buscados</a>
+        <a class="tl-btn tl-btn--linea" href="#tl-categorias">Buscar por categoría</a>
+      </div>
+    </div>
+    <div class="tl-hero__foto" role="img" aria-label="Constitución de la Nación Argentina junto a un mate" style="--tl-img:url('img/n-constitucion.jpg')">
+      <span class="tl-hero__rotulo">Puesto 2 · Lavalle 1255, CABA</span>
+    </div>
+  </section>
+
+  <!-- FRANJA -->
+  <div class="tl-franja">
+    <ul class="tl-wrap">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM17 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>Envíos a todo el país</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h18M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18M12 3l9 5H3z"/></svg>Descuento pagando con transferencia</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Puesto en Tribunales</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg>Clásicos y ediciones agotadas</li>
+    </ul>
+  </div>
+
+  <!-- LOS MÁS BUSCADOS · en cada href poné el link del producto en la tienda -->
+  <section class="tl-sec" id="tl-buscados">
+    <div class="tl-wrap">
+      <div class="tl-cabeza">
+        <h2 class="tl-h2">Los más buscados</h2>
+        <p class="tl-bajada">Códigos, obras de referencia y títulos para la cursada y el estudio, listos para llevar.</p>
+      </div>
+      <div class="tl-estante">
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-ccyc.jpg" alt="Código Civil y Comercial de la Nación" loading="lazy"></span><span class="tl-libro__titulo">Código Civil y Comercial de la Nación</span><span class="tl-libro__autor">Códigos y leyes</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-constitucion.jpg" alt="Constitución de la Nación Argentina" loading="lazy"></span><span class="tl-libro__titulo">Constitución de la Nación Argentina</span><span class="tl-libro__autor">Códigos y leyes</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-codigo-penal.jpg" alt="Código Penal con leyes complementarias" loading="lazy"></span><span class="tl-libro__titulo">Código Penal</span><span class="tl-libro__autor">Con leyes complementarias</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-diccionario.jpg" alt="Diccionario Jurídico Fundamental" loading="lazy"></span><span class="tl-libro__titulo">Diccionario Jurídico Fundamental</span><span class="tl-libro__autor">Diccionarios</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-cifuentes.jpg" alt="Código Civil comentado y anotado, 9 tomos" loading="lazy"></span><span class="tl-libro__titulo">Código Civil comentado y anotado</span><span class="tl-libro__autor">Cifuentes · Sagarna · La Ley</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-teoria-conflictos.jpg" alt="Teoría de conflictos, de Remo F. Entelman" loading="lazy"></span><span class="tl-libro__titulo">Teoría de conflictos</span><span class="tl-libro__autor">Remo F. Entelman · Gedisa</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-bitcoin.jpg" alt="Entendiendo al Bitcoin, de Federico M. Álvarez Larrondo" loading="lazy"></span><span class="tl-libro__titulo">Entendiendo al Bitcoin</span><span class="tl-libro__autor">Federico M. Álvarez Larrondo · La Ley</span><span class="tl-libro__ver">Ver el libro</span></a>
+        <a class="tl-libro" href="/productos"><span class="tl-libro__foto"><img src="img/n-manual-cripto.jpg" alt="Manual de Criptomonedas, de Marcos Zocaro" loading="lazy"></span><span class="tl-libro__titulo">Manual de Criptomonedas</span><span class="tl-libro__autor">Marcos Zocaro · Buyatti</span><span class="tl-libro__ver">Ver el libro</span></a>
+      </div>
+      <div class="tl-estante__pie"><a class="tl-btn tl-btn--tinta" href="/productos">Ver todo el catálogo</a></div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS · para cambiar una foto, editá el src -->
+  <section class="tl-sec" id="tl-categorias">
+    <div class="tl-wrap">
+      <div class="tl-cabeza">
+        <h2 class="tl-h2">¿Qué estás buscando?</h2>
+        <p class="tl-bajada">Desde el primer código de la cursada hasta la obra completa para tu estudio.</p>
+      </div>
+      <div class="tl-cats">
+        <a class="tl-cat" href="/packs-armados"><span class="tl-cat__foto"><img src="img/n-pack-estudiantes.jpg" alt="" loading="lazy"></span><span class="tl-cat__pie"><span class="tl-cat__nombre">Packs armados</span><span class="tl-cat__para">Para la cursada</span></span></a>
+        <a class="tl-cat" href="/packs-para-profesionales"><span class="tl-cat__foto"><img src="img/n-pack-profesionales.jpg" alt="" loading="lazy"></span><span class="tl-cat__pie"><span class="tl-cat__nombre">Packs para profesionales</span><span class="tl-cat__para">Para el estudio</span></span></a>
+        <a class="tl-cat" href="/codigos-y-leyes"><span class="tl-cat__foto"><img src="img/n-cifuentes.jpg" alt="" loading="lazy"></span><span class="tl-cat__pie"><span class="tl-cat__nombre">Códigos y leyes</span><span class="tl-cat__para">Actualizados</span></span></a>
+        <a class="tl-cat" href="/textos-universitarios"><span class="tl-cat__foto"><img src="img/n-teoria-conflictos.jpg" alt="" loading="lazy"></span><span class="tl-cat__pie"><span class="tl-cat__nombre">Textos universitarios</span><span class="tl-cat__para">Bibliografía</span></span></a>
+        <a class="tl-cat" href="/clasicos-del-derecho-y-agotados"><span class="tl-cat__foto"><img src="img/n-savigny.jpg" alt="" loading="lazy"></span><span class="tl-cat__pie"><span class="tl-cat__nombre">Clásicos y agotados</span><span class="tl-cat__para">Difíciles de conseguir</span></span></a>
+        <a class="tl-cat" href="/promociones"><span class="tl-cat__foto"><img src="img/n-cripto.jpg" alt="" loading="lazy"></span><span class="tl-cat__pie"><span class="tl-cat__nombre">Promociones</span><span class="tl-cat__para">Por tiempo limitado</span></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR RAMA: botones de texto, uno por categoría -->
+  <section class="tl-ramas" aria-label="Buscar por rama del Derecho">
+    <div class="tl-wrap tl-ramas__grid">
+      <h2>Buscá por rama</h2>
+      <div class="tl-chips">
+        <a href="/derecho-civil">Derecho Civil</a>
+        <a href="/codigo-civil-y-comercial">Código Civil y Comercial</a>
+        <a href="/derecho-penal">Derecho Penal</a>
+        <a href="/derecho-laboral">Derecho Laboral</a>
+        <a href="/diccionarios">Diccionarios</a>
+        <a href="/editoriales">Editoriales</a>
+        <a class="tl-chips__todas" href="/productos">Ver todas las categorías</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMOCIONES -->
+  <section class="tl-sec tl-promo">
+    <div class="tl-wrap">
+      <div class="tl-cabeza">
+        <div>
+          <div class="tl-filete" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7z"/></svg></div>
+          <h2 class="tl-h2">Promociones</h2>
+        </div>
+        <p class="tl-bajada">Packs pensados para ahorrar: lo que necesitás para la cursada o para el estudio, en una sola compra.</p>
+      </div>
+      <div class="tl-promos">
+        <a class="tl-promo-card" href="/packs-armados">
+          <img src="img/n-pack-estudiantes.jpg" alt="Códigos, Constitución y diccionario jurídico sobre un escritorio de estudiante" loading="lazy">
+          <span class="tl-promo-card__txt"><span><h3>Todo lo que necesitás para aprobar</h3><p>Códigos, Constitución y diccionario jurídico en ediciones para estudiantes.</p></span><span class="tl-promo-card__ir">Ver el pack</span></span>
+        </a>
+        <a class="tl-promo-card" href="/packs-para-profesionales">
+          <img src="img/n-compendio.jpg" alt="Compendio de legislación penal sobre el escritorio de un abogado" loading="lazy">
+          <span class="tl-promo-card__txt"><span><h3>Herramientas para abogados penalistas</h3><p>Modelos de escritos usados en casos reales y legislación penal actualizada.</p></span><span class="tl-promo-card__ir">Ver el pack</span></span>
+        </a>
+      </div>
+      <div class="tl-transfer">
+        <p>Pagando con transferencia tenés <b>descuento en toda la tienda</b>.</p>
+        <a class="tl-btn tl-btn--amarillo" href="/promociones">Ver todas las promociones</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLÁSICOS Y AGOTADOS -->
+  <section class="tl-sec tl-clasicos">
+    <div class="tl-wrap tl-clasicos__grid">
+      <div class="tl-clasicos__foto" role="img" aria-label="Derecho Romano de Savigny, obra completa en 6 tomos"></div>
+      <div>
+        <div class="tl-filete" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg></div>
+        <h2 class="tl-h2">Lo que no encontrás en otro lado</h2>
+        <p>Obras completas, clásicos del Derecho y ediciones agotadas que ya no se consiguen en librerías.</p>
+        <a class="tl-btn tl-btn--tinta" href="/clasicos-del-derecho-y-agotados">Ver clásicos y agotados</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TE LO BUSCAMOS -->
+  <section class="tl-busca">
+    <div class="tl-wrap tl-busca__grid">
+      <span class="tl-busca__lupa" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8"/></svg></span>
+      <div>
+        <h2>¿No encontrás un libro? Te lo buscamos.</h2>
+        <p>Escribinos el título, el autor o la edición que necesitás y te decimos si lo tenemos o si te lo podemos conseguir.</p>
+      </div>
+      <a class="tl-btn tl-btn--tinta" href="https://wa.me/5491141974064?text=Hola!%20Estoy%20buscando%20este%20libro%3A%20" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- PUESTO -->
+  <section class="tl-sec tl-puesto">
+    <div class="tl-wrap tl-puesto__grid">
+      <div>
+        <h2 class="tl-puesto__dir">Lavalle 1255<small>Puesto 2 · Ciudad de Buenos Aires</small></h2>
+        <p>Vení a ver los libros en persona, a metros de Tribunales. También podés escribirnos por WhatsApp para consultar disponibilidad o pedir un título.</p>
+        <div class="tl-hero__ctas">
+          <a class="tl-btn tl-btn--amarillo" href="https://wa.me/5491141974064" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+          <a class="tl-btn tl-btn--linea" href="https://www.google.com/maps/search/?api=1&query=Lavalle+1255,+CABA" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+      <img class="tl-puesto__foto" src="img/puesto.jpg" alt="El puesto 2 de Tribunales Libros" loading="lazy">
+    </div>
+  </section>
+
+</div>
+<!-- ===== FIN DEL BLOQUE ===== -->
+
+<footer class="emp-foot">
+  <div><b>MEDIOS DE PAGO</b>💳 Tarjetas, transferencia y más<br><br><b>MEDIOS DE ENVÍO</b>📦 Envíos a todo el país</div>
+  <div><b>NUESTRAS REDES SOCIALES</b>Facebook · Instagram · TikTok<br><br><b>CONTACTO</b>matybook@gmail.com · 1141974064<br>Lavalle 1255, caba. Puesto 2</div>
+</footer>
+<div class="emp-foot-b">Tienda creada con Empretienda</div>
+</body>
+</html>
